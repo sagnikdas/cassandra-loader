@@ -1,3 +1,7 @@
+datadump.location:
+  author: /Users/sagnikdas/spring/test-authors.txt
+  works: /Users/sagnikdas/spring/test-works.txt
+
 spring:
   data:
     cassandra:
@@ -10,6 +14,8 @@ spring:
       connection:
         connect-timeout: 10s
         init-query-timeout: 10s
+  main:
+    allow-circular-references: true
 
 
 
@@ -22,3 +28,8 @@ astra.db:
   region: asia-south1
   keyspace: main
   application.token: AstraCS:lpOJJotMscoZAeeGZTbXQXCa:ed496faa202b274e98929c53e936d7250eeff7c10c28473bdbbb6122b7441446
+
+
+
+
+
